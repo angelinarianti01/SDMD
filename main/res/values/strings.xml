@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">StockManagement</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="userName">Angelina Rianti</string>
+    <string name="userDescription">Manager of Dine and Co</string>
+
+    <!--Tabs -->
+    <string name="home">Home</string>
+    <string name="products">Products</string>
+    <string name="history">History</string>
+    <string name="watchlist">Watchlist</string>
+
+    <!-- Home Buttons -->
+    <string name="myProduct">My Product</string>
+    <string name="myWatchlist">Stock Watchlist</string>
+    <string name="stockIn">Stock In</string>
+    <string name="stockOut">Stock Out</string>
+
+    <!-- Product Table -->
+    <string name="productFormTitle">Product Details</string>
+    <string name="name">Name</string>
+    <string name="category">Category</string>
+    <string name="brand">Brand</string>
+    <string name="cost">Cost</string>
+    <string name="watch">Watch</string>
+    <string name="minstock">Minimum Stock</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Product Quantity Table -->
+    <string name="productTableTitle">Product Quantity</string>
+    <string name="productName">Product Name</string>
+    <string name="productId">Product ID</string>
+    <string name="deliveryDate">Delivery Date</string>
+    <string name="productQuantity">Quantity</string>
+    <string name="submit">Submit</string>
+
+    <!-- History table -->
+    <string name="historyTableTitle">Stock In / Out History</string>
+    <string name="date">Date</string>
+
+
+</resources>

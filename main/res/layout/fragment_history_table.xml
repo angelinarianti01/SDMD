@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HistoryTableFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tableTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/historyTableTitle"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/productListCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TableLayout
+            android:id="@+id/historyTable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/idField"
+                    android:text="@string/productId"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:id="@+id/expField"
+                    android:text="@string/date"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:id="@+id/qtyField"
+                    android:text="@string/productQuantity"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+            </TableRow>
+
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

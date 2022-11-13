@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PQTableFragment">
+
+    <TableLayout
+        android:id="@+id/productQuantityTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/dateField"
+                android:text="@string/date"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/quantityField"
+                android:text="@string/productQuantity"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>
